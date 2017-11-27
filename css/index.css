@@ -1,0 +1,165 @@
+ body {
+     margin: 0px;
+     padding: 0px;
+     width: 100vw;
+     height: 100vh;
+     background-color: #97a5f5;
+ }
+ 
+ .container {
+     padding: 25px;
+     border-style: solid;
+     border-width: 2px;
+     border-color: #6d7184;
+     background-color: #b3bae6;
+     border-radius: 30px;
+     width: 85%;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 5vh;
+ }
+ 
+ .photo {
+     width: 23vw;
+     height: 23vw;
+     background-image: url(../img/lly.jpg);
+     background-size: 23vw;
+     background-position-y: -33vw;
+     border-radius: 50%;
+     float: left;
+     margin-left: 7vw;
+ }
+ 
+ .header {
+     height: 250px;
+ }
+ 
+ .name {
+     font-size: 2.5rem;
+     color: rgba(46, 134, 199, 0.79);
+     margin-bottom: 14px;
+ }
+ /*https://www.facebook.com/profile.php?id=100010653457433
+ https://weibo.com/2496738764/profile?rightmod=1&wvr=6&mod=personinfo
+ https://twitter.com/LEE_YOUNG19
+ <div class="data">郵箱：lly19961207@gmail.com</div>
+ */
+ 
+ .btn {
+     text-decoration: none;
+     display: inline-block;
+     margin-bottom: 0;
+     font-weight: normal;
+     text-align: center;
+     vertical-align: middle;
+     touch-action: manipulation;
+     cursor: pointer;
+     background-image: none;
+     border: 1px solid transparent;
+     white-space: nowrap;
+     padding: 6px 12px;
+     font-size: 14px;
+     line-height: 1.42857143;
+     border-radius: 4px;
+ }
+ 
+ .btn-green {
+     background-color: #1d9d74;
+     color: #fff;
+ }
+ 
+ .btn-blue {
+     background-color: #606db7;
+     color: #fff;
+ }
+ 
+ .btn-yellow {
+     background-color: #F57C00;
+     color: #fff;
+ }
+ 
+ .btn-blue2 {
+     background-color: rgba(2, 140, 243, 0.79);
+     color: #fff;
+ }
+ 
+ .btn-lg {
+     padding: 10px 20px;
+     font-size: 21px;
+ }
+ 
+ .btn-me {
+     padding: 10px 20px;
+     font-size: 20px;
+ }
+ 
+ .btn-sm {
+     padding: 4px 6px;
+     font-size: 19px;
+ }
+ 
+ .btn-green:hover {
+     background-color: #167f5e;
+ }
+ 
+ .btn-blue:hover {
+     background-color: #3b4994;
+ }
+ 
+ .btn-yellow:hover {
+     background-color: #c56604;
+ }
+ 
+ .btn-blue2:hover {
+     background-color: #232394;
+ }
+ 
+ .data {
+     font-size: 1.5rem;
+     margin-top: 18px;
+     margin-bottom: 24px;
+     color: #525558;
+ }
+ 
+ .info {
+     margin-left: 35vw;
+ }
+ 
+ .imglist {
+     text-align: center;
+     padding-top: 200px;
+ }
+ 
+ .imglist>img {
+     width: 30%;
+ }
+ 
+ .imglist>img {
+     width: 30%;
+     -webkit-transition: width 2s;
+     transition: width 2s;
+ }
+ 
+ .imglist>img:hover {
+     box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+     width: 25%;
+ }
+ 
+ .imglist2 {
+     text-align: center;
+ }
+ 
+ .imglist2>img {
+     width: 30%;
+ }
+ 
+ .imglist2>img {
+     width: 30%;
+     -webkit-transition: width 2s;
+     transition: width 2s;
+ }
+ 
+ .imglist2>img:hover {
+     box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+     width: 35%;
+ }
